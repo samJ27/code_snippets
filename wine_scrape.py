@@ -2,6 +2,10 @@ from requests import get
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 
+'''
+Tool to scrape wine information off websites for input into a pandas dataframe
+'''
+
 # First equisite collection page on aldi
 url_aldi = 'https://www.aldi.co.uk/exquisite-haut-poitou-sav-blanc/p/086088246528000'
 response = get(url_aldi)
